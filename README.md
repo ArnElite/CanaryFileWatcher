@@ -1,6 +1,7 @@
 # Ransomware Detection Prototype (Safe Demo)
 
 This project is a **classroom-safe prototype** that demonstrates ransomware-style behavior detection using canary files.
+This project is intended to be more of a proof of concept than actual real world implementation as it is.
 
 ## What this prototype does
 
