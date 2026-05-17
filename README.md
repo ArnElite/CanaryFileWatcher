@@ -52,15 +52,7 @@ python detector.py
 python mock_attack.py --demo-ransomware --target "C:\Users\Public\Documents\demo_target" --delay 0.2
 ```
 
-## Suggested presentation script
-
-1. Show canary files exist and detector status is green.
-2. Explain mitigation mode (`Observe only` vs `Kill demo process only`).
-3. Start mock attacker with `--demo-ransomware`.
-4. Show detector alert turns red and captures PID.
-5. In kill mode, show process terminated after touching early files.
-
-## Known limitations (good to discuss)
+## Known limitations
 
 - Slow-and-low attacks may not show high disk bursts in a short sample.
 - False positives are reduced by strict demo-only kill rules, but this is not enterprise-grade EDR.
